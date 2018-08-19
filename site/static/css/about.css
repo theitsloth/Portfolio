@@ -1,0 +1,22 @@
+section {
+	margin: 10px 0;
+	padding: 5px 30px;
+	font-size: 20px;
+}
+
+section > header {
+	font-size: 120%;
+	margin: 10px;
+	margin-left: 0;
+	font-weight: 500;
+	border-bottom: 2px solid black;
+	/*display: inline-block; /* Full width or text width underline */
+}
+section > p {
+	margin: 0;
+}
+
+.rightblock > header {
+	border: none;
+	font-size: 100%;
+}

@@ -28,7 +28,14 @@
 			</div>
 		</div>
 		<div id="main">
-			<div id="content">
+			<?php if(isblock("right")): ?>
+			<div id='rightside'>
+				<?php block("right"); ?>
+			</div>
+			<?php endif; ?>
+			<div id="content"
+			class=" <?= isblock("right")?
+			'contentwithright' : '' ?>">
 				<?php block("content"); ?>
 			</div>
 			<div id="footer">

@@ -87,14 +87,24 @@ body {
 
 #footer {
 	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	padding:  20px;
+	bottom: 0; right: 0; left: 0;
+	padding: 20px;
 	background-color: #f8f8f8;
 	border-top: 2px solid #ddd;
 }
 
 #content {
 	padding: 20px;
+}
+
+.contentwithright {
+	margin-right: 300px;
+}
+
+#rightside {
+	position: absolute;
+	top: 0; right: 0;
+	width: 300px;
+	padding: 20px;
+	border-left: 1px solid black;
 }

@@ -23,6 +23,10 @@ function block($name) {
 	if (isset($prefix__blocks[$name]))
 		echo $prefix__blocks[$name];
 }
+function isblock($name) {
+	global $prefix__blocks;
+	return isset($prefix__blocks[$name]);
+}
 function renderTemplate($prefix__filename, $prefix__context = array()) {
 	global $prefix__extended, $prefix__blocks;
 	// Create variables
