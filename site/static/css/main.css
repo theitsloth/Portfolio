@@ -18,17 +18,6 @@ body {
     overflow-x: visible;
 }
 
-/*#main:before {
-	content: '';
-	z-index: -1;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: #fff;
-	opacity: 0.8;
-	height: 100vh;
-}*/
-
 #main {
 	position: relative;
 	height: 100vh;
