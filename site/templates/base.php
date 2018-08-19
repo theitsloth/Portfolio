@@ -39,7 +39,11 @@
 				<?php block("content"); ?>
 			</div>
 			<div id="footer">
-				&copy; 2018 Copyright.
+				&copy; <?php
+				$copyYear = 2018; // Set your website start date
+				$curYear = date('Y'); // Keeps the second year updated
+				echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+				?> Copyright.
 			</div>
 		</div>
 	</body>
