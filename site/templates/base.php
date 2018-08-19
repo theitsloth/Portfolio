@@ -39,9 +39,7 @@
 				<?php block("content"); ?>
 			</div>
 			<div id="footer">
-				<a href="mailto:lorinc11@gmail.com">
-					lorinc11@gmail.com
-				</a>
+				&copy; 2018 Copyright.
 			</div>
 		</div>
 	</body>
