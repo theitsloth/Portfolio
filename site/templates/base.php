@@ -10,7 +10,7 @@
 		<!-- Loading js/css-->
 		<link rel="stylesheet" type="text/css"
 			href="static/css/main.css" />
-		<script src="static/js/main.js"></script>
+		<!--<script src="static/js/main.js"></script>-->
 		<?php block("head"); ?>
 	</head>
 	<body>
