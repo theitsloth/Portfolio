@@ -19,7 +19,7 @@
 				id="avatar" />
 			<div id="intro">
 				Lőrinc Bethlenfalvy <br> programmer,
-				SA.
+				web developer.
 			</div>
 			<div id="menu">
 				<a class="menuitem" href="/">Home</a>
