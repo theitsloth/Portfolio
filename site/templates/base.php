@@ -5,7 +5,7 @@
 		<title>Lorinc Bethlenfalvy</title>
 
 		<!-- External resources -->
-		<script src="static/js/jquery-3.3.1.min.js"></script>
+		<!--<script src="static/js/jquery-3.3.1.min.js"></script>-->
 
 		<!-- Loading js/css-->
 		<link rel="stylesheet" type="text/css"
